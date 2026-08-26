@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: '/Football-Club/',
   build: {
-    outDir: 'docs',
+    outDir: 'dist',
   },
   plugins: [
     react(),
